@@ -80,6 +80,10 @@ int main()
 
 ### <img src="media\Camera.png" alt="Media" width="20" height="20"/> Media
 
+https://github.com/tinyBigGAMES/Infero/assets/69952438/95e9eb92-8a12-48bc-9d08-fa3585f2e9eb
+
+https://github.com/tinyBigGAMES/Infero/assets/69952438/0570fd68-4af9-4c92-8868-42fb89724776
+
 ### <img src="media\Support.png" alt="Support" width="20" height="20"/> Support
 Our development motto: 
 - We will not release products that are buggy, incomplete, adding new features over not fixing underlying issues.
