@@ -72,7 +72,7 @@ int main()
         return 1;
     };
     
-    Dllama_Quit();
+    Infero_Quit();
 
     return 0;
 }
