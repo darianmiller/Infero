@@ -23,7 +23,7 @@ Delphi example:
 ```Delphi   
 uses
   System.SysUtils,
-  Dllama;
+  Infero;
 
 begin
   // init
