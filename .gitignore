@@ -67,3 +67,25 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
+
+# Infero
+*.pdb
+*.dsv
+*.d
+*.pch
+examples/cpp/testbed/projects/cppbuilder/Win64x/*
+
+!bin/cublas64_12.dll
+!bin/cublasLt64_12.dll
+!bin/cudart64_12.dll
+!bin/llama.dll
+!bin/Infero.dll
+doc/Infero_html_alias.h
+doc/Infero_html_map.h
+doc/Infero_html_map.inc
+doc/Infero_html_mapfunc.c
+doc/Infero_html_mapfunc.inc
+doc/Infero_map.h
+doc/Infero_map.inc
+examples/cpp/testbed/projects/visualstudio/Testbed_CPP/Testbed_CPP/
+!lib/Infero.lib

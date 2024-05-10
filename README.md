@@ -62,7 +62,7 @@ int main()
     Infero_AddMessage(ROLE_USER, "What is AI?");
 
     // do inference
-    if (Infero_Inference("phi34", 1024, NULL, NILL, NULL)
+    if (Infero_Inference("phi34", 1024, NULL, NULL, NULL)
     {
         // success
     }

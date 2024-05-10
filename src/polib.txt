@@ -1,0 +1,11 @@
+POLIB is use when compiling Infero.dll to make Infero.lib import library.
+
+1. Download here:
+http://www.smorgasbordet.com/pellesc/ (win64 version)
+
+2. Place POLIB.exe in the [distro/src] folder or make it accessable from
+   a global path.
+
+3. Have a successful compile, [distro/src/Infero/infero-lib.cmd] will fire as a
+   post-build event to create Infero.lib and place it in [distro/lib] folder.
+

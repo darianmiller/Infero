@@ -1,0 +1,59 @@
+﻿{
+  "model_path": "C:\\LLM\\gguf",
+  "gpu_layers": -1,
+  "inference_cancel_key": 27,
+  "models": [
+    {
+      "filename": "Phi-3-mini-4k-instruct-q4.gguf",
+      "name": "phi3",
+      "max_context": 4000,
+      "template": "<|%s|>%s<|im_end|>",
+      "template_end": "<|assistant|>",
+      "stop": [
+        "<|user|>",
+        "<|assistant|>",
+        "<|system|>",
+        "<|end|>",
+        "<|endoftext|>"
+      ]
+    },
+    {
+      "filename": "Meta-Llama-3-8B-Instruct-Q6_K.gguf",
+      "name": "llama3",
+      "max_context": 8000,
+      "template": "<|begin_of_text|><|start_header_id|>%s<|end_header_id|>%s<|eot_id|>",
+      "template_end": "<|start_header_id|>assistant<|end_header_id|>",
+      "stop": [
+        "<|eot_id|>",
+        "<|start_header_id|>",
+        "<|end_header_id|>",
+        "assistant"
+      ]
+    },
+    {
+      "filename": "WizardLM-2-7B-Q6_K.gguf",
+      "name": "wizardlm2",
+      "max_context": 8000,
+      "template": "<|im_start|>%s\\n %s\\n<|im_end|>",
+      "template_end": "ASSISTANT:",
+      "stop": [
+        "USER",
+        "ASSISTANT:",
+        "<|im_start|>",
+        "<|im_end|>"
+      ]
+    },
+    {
+      "filename": "Hermes-2-Pro-Llama-3-8B-Q8_0.gguf",
+      "name": "hermes2",
+      "max_context": 8000,
+      "template": "<|im_start|>%s\\n%s<|im_end|>\\n",
+      "template_end": "<|im_start|>assistant",
+      "stop": [
+        "<|im_start|>",
+        "<|im_end|>",
+        "assistant"
+      ]
+    }
+  ]
+}
